@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DoneLight</class>
+ <widget class="QMainWindow" name="DoneLight">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="bgwidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#bgwidget{
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(223, 223, 223, 255))}</string>
+    </property>
+    <widget class="QPushButton" name="Normal_bot">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>110</y>
+       <width>281</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(139, 164, 203, 255), stop:1 rgba(97, 136, 186, 255));
+border-radius:20px;
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(223, 223, 223, 255));</string>
+     </property>
+     <property name="text">
+      <string>Normal Speed</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>20</y>
+       <width>451</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 40pt &quot;Microsoft YaHei UI&quot;;;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(139, 164, 203, 255), stop:1 rgba(97, 136, 186, 255));</string>
+     </property>
+     <property name="text">
+      <string>How Many Hours</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Exit_bot">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>470</y>
+       <width>281</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(164, 191, 239, 255), stop:1 rgba(106, 147, 203, 255));
+border-radius:20px;
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(223, 223, 223, 255));</string>
+     </property>
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Dark_bot">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>500</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(139, 164, 203, 255), stop:1 rgba(97, 136, 186, 255));
+border-radius:20px;
+font: 10pt &quot;Microsoft YaHei UI&quot;;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(223, 223, 223, 255));</string>
+     </property>
+     <property name="text">
+      <string>Dark Mode</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Quarter_bot">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>180</y>
+       <width>281</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(139, 164, 203, 255), stop:1 rgba(97, 136, 186, 255));
+border-radius:20px;
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(223, 223, 223, 255));</string>
+     </property>
+     <property name="text">
+      <string>1.25 Speed</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Half_bot">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>250</y>
+       <width>281</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(139, 164, 203, 255), stop:1 rgba(97, 136, 186, 255));
+border-radius:20px;
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(223, 223, 223, 255));</string>
+     </property>
+     <property name="text">
+      <string>1.5 Speed</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ThreeQuarters_bot">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>320</y>
+       <width>281</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(139, 164, 203, 255), stop:1 rgba(97, 136, 186, 255));
+border-radius:20px;
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(223, 223, 223, 255));</string>
+     </property>
+     <property name="text">
+      <string>1.75 Speed</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Double_bot">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>390</y>
+       <width>281</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(139, 164, 203, 255), stop:1 rgba(97, 136, 186, 255));
+border-radius:20px;
+font: 24pt &quot;Microsoft YaHei UI&quot;;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(223, 223, 223, 255));</string>
+     </property>
+     <property name="text">
+      <string>2 Speed</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Return_bot">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>450</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(139, 164, 203, 255), stop:1 rgba(97, 136, 186, 255));
+border-radius:20px;
+font: 10pt &quot;Microsoft YaHei UI&quot;;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(223, 223, 223, 255));</string>
+     </property>
+     <property name="text">
+      <string>Return</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
